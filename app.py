@@ -33,7 +33,7 @@ from PIL import Image
 import base64
 import streamlit as st
 
-nltk.download()
+# nltk.download()
 #### Chargement des fichiers : 
 toptag = pickle.load(open("toptag.pkl","rb"))
 
