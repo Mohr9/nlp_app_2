@@ -35,8 +35,9 @@ import streamlit as st
 import os
 os.environ["NLTK_DATA"]="/home/appuser/nltk_data"
 
-nltk.download("stopwords")
-nltk.download("wordnet")
+# nltk.download("stopwords")
+# nltk.download("wordnet")
+nltk.download('all')
 
 # nltk.download("wordnet", "https://github.com/Mohr9/nlp_app_2/edit/master/app.py")
 
