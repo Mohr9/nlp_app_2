@@ -36,6 +36,7 @@ import streamlit as st
 # os.environ["NLTK_DATA"]="/home/appuser/nltk_data"
 
 nltk.download("stopwords")
+from nltk_data.corpora import wordnet
 nltk.download("wordnet")
 nltk.download("corpora")
 # nltk.download('all')
