@@ -34,7 +34,7 @@ import base64
 import streamlit as st
 
 nltk.download("stopwords")
-nltk.download("wordnet")
+nltk.download("wordnet", "https://github.com/Mohr9/nlp_app_2/edit/master/app.py/nltk_data/")
 
 #### Chargement des fichiers : 
 toptag = pickle.load(open("toptag.pkl","rb"))
